@@ -62,19 +62,4 @@ body{
     cursor: pointer;
     user-select: none;
 }
-
-.calculator .button span#clear{
-    grid-column: span 2;
-    background: #f44336;
-    color:#fff;
-}
-.calculator .button span#plus{
-    grid-row: span 2;
-    background: #31a935;
-    color:#fff;
-}
-.calculator .button span#equal{
-
-    background: #2196f3;
-    color:#fff;
-}
+/* .calculator .button span# */
