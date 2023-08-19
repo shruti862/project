@@ -17,19 +17,3 @@ for(let i=0;i<btn.length;i++){
     })
 }
 
-/*Pointer Visual Effect*/
-let curs=document.querySelector('.cursor');
-curs.addEventListener('mousemove',function(e){
-          let x=e.clientX;
-          let y=e.clientY;
-          curs.style.top=`${y}px`;
-          curs.style.left=`${x}px`;
-          curs.style.display="block";
-          function mouseStopped(){
-            curs.style.display="none";
-          }
-          setTimeout(mouseStopped,1000);
-})
-document.addEventListener('mouseout',()=>{
-    curs.style.display="none";
-})
